@@ -3,14 +3,13 @@ import firebase from 'firebase/app';
 import 'firebase/auth'
 import 'firebase/firestore'
 
-const firebaseConfig = {
-  apiKey: "AIzaSyA82TCZgUu6jbmGj3ypoAPRmKQf_EG4rAw",
-  authDomain: "prueba-99e84.firebaseapp.com",
-  databaseURL: "https://prueba-99e84.firebaseio.com",
-  projectId: "prueba-99e84",
-  storageBucket: "prueba-99e84.appspot.com",
-  messagingSenderId: "451436873999",
-  appId: "1:451436873999:web:1f61036141c055f445167a"
+var firebaseConfig = {
+  apiKey: "AIzaSyCGJ1NrZdVV1_KecBNEKKu8aPqOTMZvD8w",
+  authDomain: "saludyejercicio-8966d.firebaseapp.com",
+  projectId: "saludyejercicio-8966d",
+  storageBucket: "saludyejercicio-8966d.appspot.com",
+  messagingSenderId: "892550091944",
+  appId: "1:892550091944:web:60a6a58f15ab3779879e9d"
 };
 // Initialize Firebase
 const fire = firebase.initializeApp(firebaseConfig);
